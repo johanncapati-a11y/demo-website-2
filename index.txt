@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Photography Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <h1 class="logo">My Photography</h1>
+        <nav>
+            <a href="#gallery">Gallery</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero">
+        <div class="hero-text">
+            <h2>Capturing Moments, Telling Stories</h2>
+            <p>Welcome to my world of photography. Explore the beauty through my lens.</p>
+        </div>
+    </section>
+
+    <!-- GALLERY -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="grid">
+            <img src="images/photo1.jpg" alt="Photo 1" />
+            <img src="images/photo2.jpg" alt="Photo 2" />
+            <img src="images/photo3.jpg" alt="Photo 3" />
+            <img src="images/photo4.jpg" alt="Photo 4" />
+            <img src="images/photo5.jpg" alt="Photo 5" />
+            <img src="images/photo6.jpg" alt="Photo 6" />
+        </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate photographer who loves capturing moments, nature, people, and urban landscapes. Each picture tells a story, and I'm excited to share mine with the world.</p>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to book a session or collaborate, feel free to reach out!</p>
+        <a class="btn" href="mailto:youremail@example.com">Email Me</a>
+    </section>
+
+    <footer>
+        <p>© 2025 My Photography. All Rights Reserved.</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
